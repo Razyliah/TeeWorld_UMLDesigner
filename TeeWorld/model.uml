@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_R2cdgFpsEeu5bMzADSkZZw" name="NewModel">
+  <packageImport xmi:id="_8eeWMFpyEeuGLsyOPoEukg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xRiggFpuEeuGLsyOPoEukg" name="CCollision" visibility="public">
+    <ownedComment xmi:id="_iqRGYFp0EeuGLsyOPoEukg" annotatedElement="_xRiggFpuEeuGLsyOPoEukg">
+      <body>https://github.com/teeworlds/teeworlds/blob/master/src/game/collision.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_FciaMFpvEeuGLsyOPoEukg" name="Init" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FckPYFpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fck2cFpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_JT8woFpvEeuGLsyOPoEukg" name="Checkpoint" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JT8woVpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JT8wolpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_P278gFpvEeuGLsyOPoEukg" name="GetCollisionAt" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P28jkFpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P28jkVpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Z0rYAFpvEeuGLsyOPoEukg" name="GetWidth" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z0rYAVpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z0rYAlpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_bwGi4FpvEeuGLsyOPoEukg" name="GetHeight" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bwGi4VpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bwGi4lpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dlld0FpvEeuGLsyOPoEukg" name="IntersectLine" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dlmE4FpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dlmE4VpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fe9aQFpvEeuGLsyOPoEukg" name="MovePoint" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fe-BUFpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fe-BUVpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_g-3GwFpvEeuGLsyOPoEukg" name="MoveBox" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g-3GwVpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g-3GwlpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_iBwuMFpvEeuGLsyOPoEukg" name="TestBox" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iBxVQFpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iBxVQVpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_l_DqMFpvEeuGLsyOPoEukg" name="IsTile" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l_ERQFpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l_ERQVpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_nVaZIFpvEeuGLsyOPoEukg" name="GetTile" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nVbAMFpvEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nVbAMVpvEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ri34EFpvEeuGLsyOPoEukg" name="CCommand" visibility="public">
+    <ownedComment xmi:id="_lAcTkFp0EeuGLsyOPoEukg" annotatedElement="_ri34EFpvEeuGLsyOPoEukg">
+      <body>https://github.com/teeworlds/teeworlds/blob/master/src/game/commands.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_DSSTsFpwEeuGLsyOPoEukg" name="Init" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DSS6wFpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DSS6wVpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_FMCqoFpwEeuGLsyOPoEukg" name="GetCommand" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FMDRsFpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FMDRsVpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G3_2IFpwEeuGLsyOPoEukg" name="AddCommand" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G4AdMFpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G4AdMVpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_KosgkFpwEeuGLsyOPoEukg" name="RemoveCommand" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KotHoFpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KotHoVpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MEtLkFpwEeuGLsyOPoEukg" name="ClearCommands" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MEtLkVpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MEtLklpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_NjnZkFpwEeuGLsyOPoEukg" name="CommandCount" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NjnZkVpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NjnZklpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PwEDAFpwEeuGLsyOPoEukg" name="SCommandContext" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PwEqEFpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PwEqEVpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_R7Nr8FpwEeuGLsyOPoEukg" name="OnCommand" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R7OTAFpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R7OTAVpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TSCU8FpwEeuGLsyOPoEukg" name="Filter" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TSC8AFpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TSC8AVpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YqfnYFpwEeuGLsyOPoEukg" name="CCharacterCore" visibility="public">
+    <ownedComment xmi:id="_yV6f4Fp0EeuGLsyOPoEukg" annotatedElement="_YqfnYFpwEeuGLsyOPoEukg">
+      <body>https://github.com/teeworlds/teeworlds/blob/master/src/game/gamecore.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_3HHh4FpwEeuGLsyOPoEukg" name="m_HookTick" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3HHh4VpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3HHh4lpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_4luN4FpwEeuGLsyOPoEukg" name="m_HookState" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4luN4VpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4luN4lpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_7hFy0FpwEeuGLsyOPoEukg" name="m_HookedPlayer" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7hFy0VpwEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7hFy0lpwEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_AWmwQFpxEeuGLsyOPoEukg" name="m_Jumped" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AWmwQVpxEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AWmwQlpxEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_oPdUoFpxEeuGLsyOPoEukg" name="m_Direction" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oPdUoVpxEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oPdUolpxEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_rC0NEFpxEeuGLsyOPoEukg" name="m_Angle" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rC0NEVpxEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rC0NElpxEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k2xsIFpyEeuGLsyOPoEukg" name="m_Death" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k2yTMFpyEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k2yTMVpyEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_nszeEFpyEeuGLsyOPoEukg" name="m_TriggeredEvents" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ns0FIFpyEeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ns0FIVpyEeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_3eBuIF_jEeu5pKRrCL7oIw" name="AddDragVelocity"/>
+    <ownedOperation xmi:id="_6YetEF_jEeu5pKRrCL7oIw" name="ResetDragVelocity"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FmAQgFp1EeuGLsyOPoEukg" name="CCharacter" visibility="public">
+    <ownedComment xmi:id="_9ZzOoFp1EeuGLsyOPoEukg" annotatedElement="_FmAQgFp1EeuGLsyOPoEukg">
+      <body>https://github.com/teeworlds/teeworlds/blob/master/src/game/server/entities/character.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_cab1IFp2EeuGLsyOPoEukg" name="ms_PhysSize" visibility="public" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cab1IVp2EeuGLsyOPoEukg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cab1Ilp2EeuGLsyOPoEukg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_rzX6UF_iEeu5pKRrCL7oIw" name="m_Ammo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rzX6UV_iEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzX6Ul_iEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_30rwEF_iEeu5pKRrCL7oIw" name="m_ActiveWeapon" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_30sXIF_iEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_30sXIV_iEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9uVEAF_iEeu5pKRrCL7oIw" name="m_Health" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9uVrEF_iEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9uVrEV_iEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_KqjC0F_jEeu5pKRrCL7oIw" name="m_ActivationTick" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kqjp4F_jEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kqjp4V_jEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_XR7NwFp3EeuGLsyOPoEukg" name="SetWeapon">
+      <ownedParameter xmi:id="_fbZ2UFp3EeuGLsyOPoEukg" name="W">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_wHacAF_aEeu5pKRrCL7oIw" name="HandleWeapons"/>
+    <ownedOperation xmi:id="_2B8gwF_aEeu5pKRrCL7oIw" name="HandleNinja"/>
+    <ownedOperation xmi:id="_4bIlsF_aEeu5pKRrCL7oIw" name="FireWeapon"/>
+    <ownedOperation xmi:id="_6uOpsF_aEeu5pKRrCL7oIw" name="Die">
+      <ownedParameter xmi:id="_I691MF_bEeu5pKRrCL7oIw" name="int Killer"/>
+      <ownedParameter xmi:id="_K_pCsF_bEeu5pKRrCL7oIw" name="int weapon"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ML5IgF_dEeu5pKRrCL7oIw" name="TakeDamage">
+      <ownedParameter xmi:id="_OV8lQF_dEeu5pKRrCL7oIw" name="Dmg">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_SfktEF_dEeu5pKRrCL7oIw" name="From">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_YkLT0F_dEeu5pKRrCL7oIw" name="Weapon">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Y_SGAF_eEeu5pKRrCL7oIw" name="CCollision" visibility="public">
+    <ownedComment xmi:id="_h6XqUF_hEeu5pKRrCL7oIw" annotatedElement="_Y_SGAF_eEeu5pKRrCL7oIw">
+      <body>https://github.com/teeworlds/teeworlds/blob/master/src/game/collision.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_YrW9EF_hEeu5pKRrCL7oIw" name="m_Width" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YrXkIF_hEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrXkIV_hEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_bN3WEF_hEeu5pKRrCL7oIw" name="m_Height" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bN3WEV_hEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bN39IF_hEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_eQQQYF_eEeu5pKRrCL7oIw" name="CheckPoint">
+      <ownedParameter xmi:id="_j4FbkF_eEeu5pKRrCL7oIw" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_2eO3UF_eEeu5pKRrCL7oIw" name="y">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_4s0OwF_eEeu5pKRrCL7oIw" name="Flag=COLFLAG_SOLID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_A5WyYF_fEeu5pKRrCL7oIw" name="GetCollisionAt">
+      <ownedParameter xmi:id="_7yQDwF_gEeu5pKRrCL7oIw" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_MMQYEF_hEeu5pKRrCL7oIw" name="y">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Pl3YMF_hEeu5pKRrCL7oIw" name="GetWidth"/>
+    <ownedOperation xmi:id="_SQdWMF_hEeu5pKRrCL7oIw" name="GetHeight"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9c9VQF_kEeu5pKRrCL7oIw" name="CLaser" visibility="public">
+    <ownedComment xmi:id="_P5HHgF_lEeu5pKRrCL7oIw" annotatedElement="_9c9VQF_kEeu5pKRrCL7oIw">
+      <body>https://github.com/teeworlds/teeworlds/blob/master/src/game/server/entities/laser.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_VB-pUF_mEeu5pKRrCL7oIw" name="m_Energy" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VB-pUV_mEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VB-pUl_mEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_baNWsF_mEeu5pKRrCL7oIw" name="m_Bounces" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_baNWsV_mEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_baNWsl_mEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_JxtrcF_lEeu5pKRrCL7oIw" name="Reset"/>
+    <ownedOperation xmi:id="_KjnCcF_lEeu5pKRrCL7oIw" name="Tick"/>
+    <ownedOperation xmi:id="_LRAT8F_lEeu5pKRrCL7oIw" name="TickPaused"/>
+    <ownedOperation xmi:id="_NE9k4F_lEeu5pKRrCL7oIw" name="snap">
+      <ownedParameter xmi:id="_QqHGoF_lEeu5pKRrCL7oIw" name="SnappingClient">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_V0VIwF_lEeu5pKRrCL7oIw" name="HitCharacter" visibility="protected">
+      <ownedParameter xmi:id="_YSOHgF_lEeu5pKRrCL7oIw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Ravc4F_mEeu5pKRrCL7oIw" name="DoBounce" visibility="protected"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3yPGwF_nEeu5pKRrCL7oIw" name="CFlag" visibility="public">
+    <ownedComment xmi:id="_b_xkEF_1Eeu5pKRrCL7oIw" annotatedElement="_3yPGwF_nEeu5pKRrCL7oIw">
+      <body>https://github.com/teeworlds/teeworlds/blob/96a8926f4837a8264b61e6c195279518b77d62bd/src/game/server/entities/flag.h</body>
+    </ownedComment>
+    <generalization xmi:id="_6RnTQF_nEeu5pKRrCL7oIw" general="_4HwDwF_nEeu5pKRrCL7oIw"/>
+    <ownedAttribute xmi:id="_YChXQF_oEeu5pKRrCL7oIw" name="m_Team" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YChXQV_oEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YChXQl_oEeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TwA34F_2Eeu5pKRrCL7oIw" name="m_AtStand" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TwBe8F_2Eeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TwBe8V_2Eeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ZaBNUF_2Eeu5pKRrCL7oIw" name="m_GrabTick" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZaBNUV_2Eeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZaB0YF_2Eeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_cIQ8QF_2Eeu5pKRrCL7oIw" name="m_DropTick" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cIRjUF_2Eeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cIRjUV_2Eeu5pKRrCL7oIw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4HwDwF_nEeu5pKRrCL7oIw" name="CEntity" visibility="public">
+    <ownedComment xmi:id="_bj12AF_1Eeu5pKRrCL7oIw" annotatedElement="_4HwDwF_nEeu5pKRrCL7oIw">
+      <body>https://github.com/teeworlds/teeworlds/blob/96a8926f4837a8264b61e6c195279518b77d62bd/src/game/server/entity.h</body>
+    </ownedComment>
+    <ownedOperation xmi:id="_xjJl8F_1Eeu5pKRrCL7oIw" name="Destroy"/>
+    <ownedOperation xmi:id="_y4XscF_1Eeu5pKRrCL7oIw" name="Reset"/>
+    <ownedOperation xmi:id="_0flh4F_1Eeu5pKRrCL7oIw" name="Tick"/>
+    <ownedOperation xmi:id="_1ZLcUF_1Eeu5pKRrCL7oIw" name="TickDefered"/>
+    <ownedOperation xmi:id="_2LUD4F_1Eeu5pKRrCL7oIw" name="TickPaused"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-0bXIF_nEeu5pKRrCL7oIw" name="CCharacter " visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Kq7rEF_oEeu5pKRrCL7oIw" name="m_pCarrier" memberEnd="_Kq8SIF_oEeu5pKRrCL7oIw _Kq85MF_oEeu5pKRrCL7oIw" navigableOwnedEnd="_Kq85MF_oEeu5pKRrCL7oIw">
+    <ownedEnd xmi:id="_Kq8SIF_oEeu5pKRrCL7oIw" name="cFlags" type="_3yPGwF_nEeu5pKRrCL7oIw" association="_Kq7rEF_oEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kq8SIV_oEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kq8SIl_oEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Kq85MF_oEeu5pKRrCL7oIw" name="cCharacter s" type="_-0bXIF_nEeu5pKRrCL7oIw" association="_Kq7rEF_oEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kq85MV_oEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kq85Ml_oEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1bGeAF_sEeu5pKRrCL7oIw" name="m_pCarrier;" memberEnd="_1bGeAV_sEeu5pKRrCL7oIw _1bHFEl_sEeu5pKRrCL7oIw" navigableOwnedEnd="_1bHFEl_sEeu5pKRrCL7oIw">
+    <ownedEnd xmi:id="_1bGeAV_sEeu5pKRrCL7oIw" name="cFlags" type="_3yPGwF_nEeu5pKRrCL7oIw" association="_1bGeAF_sEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1bHFEF_sEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1bHFEV_sEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_1bHFEl_sEeu5pKRrCL7oIw" name="cCharacters" type="_FmAQgFp1EeuGLsyOPoEukg" association="_1bGeAF_sEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1bHFE1_sEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1bHFFF_sEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xTsR0F_uEeu5pKRrCL7oIw" name="CGameWorld" visibility="public">
+    <ownedComment xmi:id="_WawcUF_1Eeu5pKRrCL7oIw" annotatedElement="_xTsR0F_uEeu5pKRrCL7oIw">
+      <body>https://github.com/teeworlds/teeworlds/blob/96a8926f4837a8264b61e6c195279518b77d62bd/src/game/server/gameworld.h</body>
+    </ownedComment>
+    <ownedOperation xmi:id="_vdl2YF_vEeu5pKRrCL7oIw" name="Reset" visibility="private"/>
+    <ownedOperation xmi:id="_bznwsF_wEeu5pKRrCL7oIw" name="RemoveEntities" visibility="private"/>
+    <ownedOperation xmi:id="_jGm2IF_wEeu5pKRrCL7oIw" name="SetGameServer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8JYpAF_uEeu5pKRrCL7oIw" name="pWorld" memberEnd="_8JYpAV_uEeu5pKRrCL7oIw _8JZQEV_uEeu5pKRrCL7oIw" navigableOwnedEnd="_8JZQEV_uEeu5pKRrCL7oIw">
+    <ownedEnd xmi:id="_8JYpAV_uEeu5pKRrCL7oIw" name="cCharacters" type="_FmAQgFp1EeuGLsyOPoEukg" association="_8JYpAF_uEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8JYpAl_uEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8JZQEF_uEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_8JZQEV_uEeu5pKRrCL7oIw" name="cGameWorlds" type="_xTsR0F_uEeu5pKRrCL7oIw" association="_8JYpAF_uEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8JZQEl_uEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8JZ3IF_uEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MC1RIF_zEeu5pKRrCL7oIw" name="m_pGameWorld" memberEnd="_MC1RIV_zEeu5pKRrCL7oIw _MC1RJF_zEeu5pKRrCL7oIw" navigableOwnedEnd="_MC1RJF_zEeu5pKRrCL7oIw">
+    <ownedEnd xmi:id="_MC1RIV_zEeu5pKRrCL7oIw" name="cEntitys" type="_4HwDwF_nEeu5pKRrCL7oIw" association="_MC1RIF_zEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MC1RIl_zEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MC1RI1_zEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_MC1RJF_zEeu5pKRrCL7oIw" name="cGameWorlds" type="_xTsR0F_uEeu5pKRrCL7oIw" association="_MC1RIF_zEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MC1RJV_zEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MC14MF_zEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xO5fIF_zEeu5pKRrCL7oIw" name="m_pCollision" memberEnd="_xO5fIV_zEeu5pKRrCL7oIw _xO6GMl_zEeu5pKRrCL7oIw" navigableOwnedEnd="_xO6GMl_zEeu5pKRrCL7oIw">
+    <ownedEnd xmi:id="_xO5fIV_zEeu5pKRrCL7oIw" name="cCollisions" type="_Y_SGAF_eEeu5pKRrCL7oIw" association="_xO5fIF_zEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xO6GMF_zEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xO6GMV_zEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_xO6GMl_zEeu5pKRrCL7oIw" name="cCharacterCores" type="_YqfnYFpwEeuGLsyOPoEukg" association="_xO5fIF_zEeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xO6tQF_zEeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xO6tQV_zEeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LJOBMF_2Eeu5pKRrCL7oIw" name="pGameWorld" memberEnd="_LJOoQF_2Eeu5pKRrCL7oIw _LJPPUV_2Eeu5pKRrCL7oIw" navigableOwnedEnd="_LJPPUV_2Eeu5pKRrCL7oIw">
+    <ownedEnd xmi:id="_LJOoQF_2Eeu5pKRrCL7oIw" name="cFlags" type="_3yPGwF_nEeu5pKRrCL7oIw" association="_LJOBMF_2Eeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LJOoQV_2Eeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LJPPUF_2Eeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_LJPPUV_2Eeu5pKRrCL7oIw" name="cGameWorlds" type="_xTsR0F_uEeu5pKRrCL7oIw" association="_LJOBMF_2Eeu5pKRrCL7oIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LJPPUl_2Eeu5pKRrCL7oIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LJPPU1_2Eeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

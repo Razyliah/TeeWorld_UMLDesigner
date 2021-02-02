@@ -233,6 +233,7 @@
     <ownedComment xmi:id="_P5HHgF_lEeu5pKRrCL7oIw" annotatedElement="_9c9VQF_kEeu5pKRrCL7oIw">
       <body>https://github.com/teeworlds/teeworlds/blob/master/src/game/server/entities/laser.h</body>
     </ownedComment>
+    <generalization xmi:id="_sqrzAGVXEeuPwr4aVpQ_AA" general="_4HwDwF_nEeu5pKRrCL7oIw"/>
     <ownedAttribute xmi:id="_VB-pUF_mEeu5pKRrCL7oIw" name="m_Energy" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VB-pUV_mEeu5pKRrCL7oIw"/>
@@ -320,6 +321,7 @@
     <ownedOperation xmi:id="_vdl2YF_vEeu5pKRrCL7oIw" name="Reset" visibility="private"/>
     <ownedOperation xmi:id="_bznwsF_wEeu5pKRrCL7oIw" name="RemoveEntities" visibility="private"/>
     <ownedOperation xmi:id="_jGm2IF_wEeu5pKRrCL7oIw" name="SetGameServer"/>
+    <ownedOperation xmi:id="_eXahsGVXEeuPwr4aVpQ_AA" name="DestroyEntities"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_8JYpAF_uEeu5pKRrCL7oIw" name="pWorld" memberEnd="_8JYpAV_uEeu5pKRrCL7oIw _8JZQEV_uEeu5pKRrCL7oIw" navigableOwnedEnd="_8JZQEV_uEeu5pKRrCL7oIw">
     <ownedEnd xmi:id="_8JYpAV_uEeu5pKRrCL7oIw" name="cCharacters" type="_FmAQgFp1EeuGLsyOPoEukg" association="_8JYpAF_uEeu5pKRrCL7oIw">
@@ -359,6 +361,46 @@
     <ownedEnd xmi:id="_LJPPUV_2Eeu5pKRrCL7oIw" name="cGameWorlds" type="_xTsR0F_uEeu5pKRrCL7oIw" association="_LJOBMF_2Eeu5pKRrCL7oIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LJPPUl_2Eeu5pKRrCL7oIw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LJPPU1_2Eeu5pKRrCL7oIw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XrhRcGVXEeuPwr4aVpQ_AA" name="CWorldCore" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DqPfAGVYEeuPwr4aVpQ_AA" name="PickUp" visibility="public">
+    <generalization xmi:id="_MhOt0GVYEeuPwr4aVpQ_AA" general="_4HwDwF_nEeu5pKRrCL7oIw"/>
+    <ownedAttribute xmi:id="_HnqW0GVYEeuPwr4aVpQ_AA" name="PickupPhysSize" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hnq94GVYEeuPwr4aVpQ_AA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hnq94WVYEeuPwr4aVpQ_AA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_KO43wGVYEeuPwr4aVpQ_AA" name="m_type" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KO5e0GVYEeuPwr4aVpQ_AA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KO5e0WVYEeuPwr4aVpQ_AA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qyBy0GVYEeuPwr4aVpQ_AA" name="m_SpawnTick" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qyCZ4GVYEeuPwr4aVpQ_AA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qyCZ4WVYEeuPwr4aVpQ_AA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TCxIMGVYEeuPwr4aVpQ_AA" name="CWorldCore" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aZmL0GVYEeuPwr4aVpQ_AA" name="m_core" memberEnd="_aZmL0WVYEeuPwr4aVpQ_AA _aZmy4GVYEeuPwr4aVpQ_AA" navigableOwnedEnd="_aZmy4GVYEeuPwr4aVpQ_AA">
+    <ownedEnd xmi:id="_aZmL0WVYEeuPwr4aVpQ_AA" name="cGameWorlds" type="_xTsR0F_uEeu5pKRrCL7oIw" association="_aZmL0GVYEeuPwr4aVpQ_AA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZmL0mVYEeuPwr4aVpQ_AA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZmL02VYEeuPwr4aVpQ_AA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_aZmy4GVYEeuPwr4aVpQ_AA" name="cWorldCores" type="_TCxIMGVYEeuPwr4aVpQ_AA" aggregation="composite" association="_aZmL0GVYEeuPwr4aVpQ_AA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZmy4WVYEeuPwr4aVpQ_AA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZmy4mVYEeuPwr4aVpQ_AA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fJBIUGVYEeuPwr4aVpQ_AA" name="m_pWorld" memberEnd="_fJBIUWVYEeuPwr4aVpQ_AA _fJBIVGVYEeuPwr4aVpQ_AA" navigableOwnedEnd="_fJBIUWVYEeuPwr4aVpQ_AA _fJBIVGVYEeuPwr4aVpQ_AA">
+    <ownedEnd xmi:id="_fJBIUWVYEeuPwr4aVpQ_AA" name="cCharacterCores" type="_YqfnYFpwEeuGLsyOPoEukg" association="_fJBIUGVYEeuPwr4aVpQ_AA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fJBIUmVYEeuPwr4aVpQ_AA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fJBIU2VYEeuPwr4aVpQ_AA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_fJBIVGVYEeuPwr4aVpQ_AA" name="cWorldCores" type="_TCxIMGVYEeuPwr4aVpQ_AA" association="_fJBIUGVYEeuPwr4aVpQ_AA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fJBIVWVYEeuPwr4aVpQ_AA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fJBIVmVYEeuPwr4aVpQ_AA" value="*"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
